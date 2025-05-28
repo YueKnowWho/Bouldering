@@ -1,0 +1,185 @@
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page - Boulder Bros Blog
+Jonathan Yue, UMass Lowell Computer Science, jonathan_yue@student.uml.edu
+Copyright (c) 2025 by Jonathan Yue All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+updated by JY on July 25, 2025 at 7:45 PM
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Beginners Guide to Indoor Bouldering</title>
+		<link rel="stylesheet" href="css/style.css">
+  	</head>
+	<body>
+		<!--Header, logo-->
+		<header class = "main-header">
+			<a href="./">
+				<img class="logo" src="img/boulder_bros_logo.png" alt="Logo for Boulder Bros Blog" width="100" height="100">
+			</a>
+			<p>Logo created using OpenAI’s DALL·E, 2025.</p>
+			<nav>
+			</nav>
+		</header>
+		
+		<main>
+			<!--Table of Contents, navigate through different sections of the page-->
+			<aside id = "table_of_contents">
+				<h2>Contents</h2>
+				<ol>
+					<li><a href="#what-is-bouldering">What is Bouldering?</a></li>
+					<li><a href="#gear-required">Gear Required</a></li>
+					<li><a href="#safety-tips">Safety Tips</a></li>
+					<li><a href="#starting-and-finishing-a-climb">Starting and Finishing a Climb</a></li>
+					<li><a href="#hold-types">Types of Climbing Holds</a></li>
+					<li><a href="#climbing-techniques">Climbing Techniques</a></li>
+				</ol>
+			</aside>
+			<!--Main content of the article-->
+			<article>
+				<!--Introduction, title, author, date-->
+				<header class = "introduction">
+					<h1>Beginners Guide to Indoor Bouldering</h1>
+					<p>By Jonathan Yue | <time datetime="2025-05-27">May 27, 2025</time></p>
+					<hr>
+				</header>
+				<!--Hero section, eye catching image and brief introduction-->
+				<div class = "hero">
+					<figure class="hero-image">
+						<img src="img/bouldering_hero_image.jpg" alt="Climbing Club on Halloween at Metro Rock Gym">
+						<figcaption>UMass Lowell climbing club meetup for Halloween</figcaption>
+					</figure>
+					<p>Let me guess you're here because a friend said it would be fun to touch some colorful plastic rocks, you got inspired by Retired pro climber and Youtuber Magnus Midtbo, or your unga bunga brain suddenly craves the challenge of getting to the top of tall walls even though we have ladders. Whatever brings you here, I'm here to help walk you through everything you need to know about bouldering, and in my opinion it's most accessible and beginner friendly climbing option.</p>
+					<hr>
+				</div>
+				<hr>
+				<!--Main content sections-->
+				<section id ="what-is-bouldering">
+					<h2>What is Bouldering?</h2>
+					<figure class="bouldering-image">
+						<img src="img/bouldering_example.jpg" alt="Bouldering Example">
+						<figcaption>Example of a bouldering wall at a climbing gym</figcaption>
+					</figure>
+					<p>First off, what is bouldering? Well indoors, it consists of short 10 to 20 foot climbs, where your protection is a mat you fall on below.</p>
+					<p>There are different types of climbing such as top-rope, lead/sport climbing, and speed climbing, if you're interested you can look into them on your own. This article will focus on bouldering in specfic.</p>
+					<p>In Bouldering , there are different types of walls you can climb on, there is vertical, overhang, and slab walls. Vertical walls are the most common and are usually around 10 to 15 feet tall and form a 90&deg;; with the floor, these walls require a mix of  and physical strength. Overhang walls are steeper and require more physical strength, and they form a &lt; 90&deg; angle, while slab walls are less steep and more technical requiring balance and body positioning, these walls form a slightly &gt; 90&deg; angle.</p>
+					<hr>
+				</section>
+				<section id = "gear-required">
+					<h2>Gear Required</h2>
+					<!--Gear Gallery, images of recommended gear-->
+					<div class = "gear-gallery">
+						<figure>
+							<img src="img/climbing_shoes.jpg" alt="Climbing Shoes">
+							<figcaption>Climbing Shoes</figcaption>
+						</figure>
+						<figure>
+							<img src="img/chalk_bag.jpg" alt="Chalk Bag">
+							<figcaption>Chalk Bag</figcaption>
+						</figure>
+						<figure>
+							<img src="img/chalk_brush.jpg" alt="Chalk Brush">
+							<figcaption>Chalk Brush</figcaption>
+						</figure>
+					</div>
+					<p>To start bouldering, you will need some basic gear. The most important piece of equipment is climbing shoes, which provide grip and support for your feet. You may also choose to get a chalk bag and some chalk to dry your hands and improve your grip, and a chalk brush to brush the chalk off holds because when they get to much chalk on them they can act as little marbles that become slippery. </p>
+					<p>You can typically rent or buy climbing shoes at most climbing gyms and some gyms offer free chalk. While shoes are required,chalk is optional especially as a beginner, but it does help if you end up climbing more often.</p>
+					<p>Unlike top-rope or lead climbing it does not require a rope or belay device, however you may choose to buy a crash pad in the future to do some outdoor bouldering.</p>
+					<p>As for clothing, wear something comfortable that allows you to move freely. Avoid wearing loose clothing that can get caught on holds or impede your movement. Most climbers wear athletic wear such as leggings, shorts, or fitted tops.</p>
+					<!--Recommended Gear Table, list of recommended gear with links-->
+					<h3>Reccomended Gear</h3>
+					<table>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Description</th>
+								<th>Reccomended Model</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Climbing Shoes</td>
+								<td>Essential for grip and support.</td>
+								<td><a href = "https://www.lasportivausa.com/tarantulace.html?srsltid=AfmBOorJ3VXiWAB-U1RP0v5MPJv7iLU1CMoiM0ejUhEJQ0V1SWx0Md1V">La Sportiva Tarantulace</a></td>
+							</tr>
+							<tr>
+								<td>Chalk Bag</td>
+								<td>Holds chalk to keep hands dry.</td>
+								<td><a href = "https://blackdiamondequipment.com/products/mojo-chalk-bag">Black Diamond Mojo</a></td>
+							</tr>
+							<tr>
+								<td>Chalk</td>
+								<td>Helps improve grip by drying hands.</td>
+								<td><a href = "https://www.metoliusclimbing.com/super_chalk.html">Metolius Super Chalk</a></td>
+							<tr>
+								<td>Chalk Brush</td>
+								<td>Used to clean holds with excess chalk.</td>
+								<td><a href = "https://www.rei.com/product/160952/metolius-boar-brush">Metolius Boar Brush</a></td>
+							</tr>
+							
+						</tbody>
+					</table>
+					<hr>
+				</section>
+				<section id = "safety-tips">
+					<h2>Safety Tips</h2>
+					<p>Safety is a top priority in bouldering. Here are some tips to help you stay safe while climbing:</p>
+					<ul>
+						<li>Try to warm up before climbing to prevent injury.</li>
+						<li>Learn how to fall safely by tucking in your arms to prevent injuring them, landing on both your feet and then rolling back to disperse the force. I reccomend practicing at shorter heights and then slowly increasing the height before you fall to gain some confidence.</li>
+						<li>Be aware of your surroundings. don't walk under anyone climbing, make sure you clear the area of anything below your fall zone, and when you get on a climb make sure it doesn't cross paths with someone else already on the wall</li>
+						<li>Know your limits and don't push yourself too hard. We want to be in control at all times on the wall, if when going for a move you feel like you might fail and aren't sure if you can land safely, don't go for that move.</li>
+					</ul>
+				</section>
+				<section id = "starting-and-finishing-a-climb">
+					<h2>Starting and Finishing a Climb</h2>
+					<figure class="bouldering-diagram">
+						<img src="img/bouldering_diagram.jpg" alt="Starting and Finishing a Climb">
+						<figcaption>Diagram of a Boulder Probelm from <a href = "https://projectclimbing.ca/abbotsford/new-climbers/">Project Abbotsford Website</a></figcaption>
+					</figure>
+					<p> First we have to find a route to climb, most climbing gyms have routes marked with different grades ranging from VB/V0 all the way to around V10/V11. I reccomend choosing something easy around VB/V0 to start out. Some gyms don't have a V grading system so you will have to look at their own system for distinguishing difficulty for climbs.</p>
+					<p>After finding a route, like we mentioned in the safety section, make sure to clear the area below the route and make sure that your route doesn't collide with anyone currently on the wall.</p>
+					<p>To start a climb, you will typically begin with both hands on the starting holds, which are usually marked with tape or little token. If only one hold is marked both hands start on that hold, if two holds each hand gets it's own hold, and if 3 or 4 holds are marked at least one limb must go on each of one of those holds. If there are no taped holds for your feet you may place your feet anywhere on the wall. Once you have established(your hands/feet are on starting holds and feet are not on the ground) you may proceed with your climb.</p>
+					<p> To finish a climb, you will need to place both hands on the top hold marked with tape or tokens for 3 seconds in a stable position. If there are no marked holds you will need to reach the top lip of the wall with both hands for 3 seconds in a stable position, or climb up and over the top lip of the wall. Once you have reached the top holds, you can either jump down onto the crash pad or climb down carefully. Sometimes gyms put up downclimb holds that are easy to hold and typically gray to help assist with getting down the wall</p>
+					<p>Before getting on your climb, try to check the route and plan your moves. Look for holds and foot placements that will help you ascend the wall before climbing. This is called route reading and will conserve wasted energy on the wall due to not knowing where to go or what to do. In addition as you learn new techniques try to plan those techniques into your climbs.</p>
+					<hr>
+				</section>
+				<section id = "hold-types">
+					<h2>Types of Climbing Holds</h2>
+					<figure class="holds-image">
+						<img src="img/climbing_holds.avif" alt="Types of Climbing Holds">
+						<figcaption>Common types of climbing holds by <a href = "https://displate.com/displate/7158153">UNIKORN</a></figcaption>
+					</figure>
+					<p>There are many different types of holds you will encounter while bouldering, each with its own unique shape and difficulty level. Here are some common types of holds:</p>
+					<ul>
+						<li><strong>Jugs:</strong> Large, easy-to-grip holds that are great for beginners.</li>
+						<li><strong>Crimps:</strong> Small edges that require you to use your finger strength.</li>
+						<li><strong>Slopers:</strong> Rounded holds that require you to use friction to grip.</li>
+						<li><strong>Pinches:</strong> Holds that require you to squeeze with your fingers and thumb.</li>
+						<li><strong>Pockets:</strong> Holds with a hole that you can fit your fingers into, providing a secure grip.</li>
+						<li><strong>Volumes:</strong> Large, geometric shapes that can be used in various ways to create unique climbing challenges.</li>
+					</ul>
+					<hr>
+				</section >
+				<section id = "climbing-techniques">
+					<h2>Climbing Techniques</h2>
+					<p>As you progress in bouldering, you'll learn various techniques to help you climb more efficiently. Here are some basic techniques to get you started:</p>
+					<ul>
+						<li><strong>Straight Arms:</strong> Keep your arms straight as much as possible to conserve energy. This allows you to use your legs more effectively.</li>
+						<li><strong>Keep your hips in:</strong> Keeping your hips close to the wall helps maintain balance and reduces the load on your arms.</li>
+						<li><strong>Opposite Hand and Foot:</strong> When reaching for a hold, try to use the opposite foot to maintain balance. For example, if you reach with your right hand, use your left foot to push against the wall.</li>
+						<li><strong>Footwork:</strong> Good footwork is essential for climbing efficiently. Focus on placing the tips of your feet precisely on holds to allow you to pivot your feet when on the wall.</li>
+					</ul>
+				</section>	
+			</article>
+		</main>
+		<footer>
+			<p>&copy; 2025 Bouldering Bros. All rights reserved.</p>
+			<p><a href="https://jigsaw.w3.org/css-validator/check/referer">
+					<img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a></p>
+		</footer>
+	</body>
+</html>
+
