@@ -47,7 +47,7 @@ header.introduction h1 {
 header.introduction p {
     margin-top: 8px;
 }
-header.introduction figcaption {
+figcaption {
     font-style: italic;
 }
 /*webpage layout for table of contents and main article content*/
@@ -93,6 +93,9 @@ div.gear-gallery img{
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+div.gear-gallery figcaption{
+    text-align: center;
 }
 table{
     width: 100%;
