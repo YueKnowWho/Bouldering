@@ -57,4 +57,6 @@ This project includes:
 - **Video Content**:  
   An embedded video of a personal climbing session. 
 
-Stay tuned for updates as this project evolves!  
+Stay tuned for updates as this project evolves!
+### Live Site Link
+https://yueknowwho.github.io/Bouldering
