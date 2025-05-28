@@ -1,24 +1,60 @@
-Requirements:
-• Some informative reading/interesting site to browse. At least 150 words per page.
-• Headings. Those <h1> to <h6> tags. Put a heading before things that make sense to have
-a heading.
-• Paragraphs.
-• Working Links
-• Tables. Think about creative ways to use tables. Normally tables are used on websites to
-keep things looking organized.
-• Linked in images. Try to avoid copying image off the web. Take your own photo or
-sketch something. It doesn’t have to look good. If you absolutely prefer online images,
-please properly cite them on your source code.
-• HTML entities. See list here.
+# Bouldering 101: A Beginner's Guide to Climbing  
 
-Project Scope:
--what is bouldering? what are the different types of climbing?
--what you need to climb
--safety tips, how to fall safely
--how to start and finish a climb
--different hold types
--basic techniques
-<Below can be put in different links>
--where to find climbing gyms, possibly a map**
--maybe create a table of climbing grades or products ****
--include a video of me climbing
+Welcome to your ultimate guide to bouldering! This project aims to provide an engaging and informative resource for anyone interested in climbing.  
+
+---
+
+## Requirements  
+This project includes:  
+- Informative content with at least 150 words per page.  
+- Headings for clear organization.  
+- Well-structured paragraphs.  
+- Working links for navigation.  
+- Creative use of tables for organization.  
+- Images (preferably self-taken or sketched) with proper citation.  
+- Usage of HTML entities for enhanced readability.  
+
+---
+
+## Project Scope  
+
+### What is Bouldering?  
+- Introduction to bouldering and its various styles.  
+- Explanation of other climbing types (e.g., top rope, sport climbing).  
+
+### What You Need to Climb  
+- Essential gear: climbing shoes, chalk, crash pads.  
+- Recommendations for beginner-friendly gear.  
+
+### Safety Tips  
+- How to fall safely.  
+- Importance of warming up and stretching.  
+
+### How to Start and Finish a Climb  
+- Techniques for starting a climb.  
+- Tips on finishing moves and topping out.  
+
+### Different Hold Types  
+- Overview of common climbing holds: jugs, crimps, slopers, pinches.  
+- How to grip them effectively.  
+
+### Basic Techniques  
+- Footwork and body positioning.  
+- Introduction to dynamic and static moves.  
+
+---
+
+## Additional Features  
+- **Find a Climbing Gym**:  
+  A guide to locating climbing gyms, possibly with a map.  
+
+- **Climbing Grades Table**:  
+  A table comparing different climbing grade systems.  
+
+- **Products Table**:  
+  A table listing recommended climbing products.  
+
+- **Video Content**:  
+  An embedded video of a personal climbing session. 
+
+Stay tuned for updates as this project evolves!  
